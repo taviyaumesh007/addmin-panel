@@ -84,7 +84,7 @@
   font-size: 14px;
   line-height: 19px;
   /* identical to box height */
-
+  padding-left: 20px;
   color: #adb5bd;
 }
 .check-box input {
@@ -145,4 +145,11 @@
   font-size: 14px;
   line-height: 19px;
   color: #525f7f;
+}
+.password-strength {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #8898aa;
 }
