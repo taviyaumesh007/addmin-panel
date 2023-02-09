@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dashboard_1.css" />
     <script src="./dashboard_1.js" defer></script>
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,6 +19,8 @@
     ></script>
     <script src="/src/chart/chart.js" defer></script>
     <script src="/src/chart/customChart.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
     <title>Dashboard_1</title>
   </head>
   <body>
@@ -205,7 +206,49 @@
           </div>
         </div>
         <!-- *********** chart *********** -->
-        <div></div>
+        <div class="d-flex chart-main-div">
+          <div style="height: 491px; width: 1052px">
+            <div
+              class="d-flex justify-content-around align-items-center chart-chiild-div"
+            >
+              <div class="chart-chiild-div-1">
+                <p>OVERVIEW</p>
+                <p>Sales value</p>
+              </div>
+              <div class="chart-chiild-div-2">
+                <button>Month</button>
+                <button>Week</button>
+              </div>
+            </div>
+            <canvas
+              style="
+                background: linear-gradient(90deg, #172b4d 0%, #1a174d 100%);
+                border-radius: 6px;
+              "
+              class=""
+              id="myChart"
+              area-label="chart"
+              role="img"
+              height="491px"
+              width="1052"
+            >
+            </canvas>
+          </div>
+          <div>
+            <div class="bar-chart-main" style="height: 491px; width: 511px">
+              <canvas
+                style="background: #ffffff; border-radius: 6px"
+                class=""
+                id="myBarChart"
+                area-label="chart"
+                role="img"
+                height="491px"
+                width="511px"
+              >
+              </canvas>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
