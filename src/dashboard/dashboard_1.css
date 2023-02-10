@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +15,7 @@
   background: #ffffff;
   box-shadow: 0px 0px 32px rgba(136, 152, 170, 0.15);
 }
+
 .nav-child-1-div {
   font-weight: 400;
   font-size: 14px;
@@ -20,6 +23,7 @@
   mix-blend-mode: normal;
   opacity: 0.5;
 }
+
 .nav-child-div a,
 p {
   margin-top: 25px;
@@ -31,26 +35,31 @@ p {
 .dashboard-box-main {
   width: 100%;
 }
+
 .dashboard-box {
   width: 100%;
 }
+
 .dashboard-child {
   width: 100%;
   height: 381px;
   background: linear-gradient(90deg, #5e72e4 0%, #825ee4 100%);
 }
+
 #dashboard {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
 }
+
 .status-box {
   height: 123px;
   width: 377px;
   background: #ffffff;
   border-radius: 6px;
 }
+
 .dash-input input {
   height: 47px;
   width: 315px;
@@ -64,46 +73,55 @@ p {
   line-height: 19px;
   color: #ffffff;
 }
+
 .trafic {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   color: #8898aa;
 }
+
 .trafic-1 {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   color: #32325d;
 }
+
 .up-arrow {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   color: #2dce89;
 }
+
 .since-last-month {
   font-weight: 300;
   font-size: 14px;
   line-height: 19px;
   color: #8898aa;
 }
+
 .line-chart {
   position: absolute;
 }
+
 .chart-main-div {
   position: absolute;
   top: 320px;
   left: 230px;
 }
+
 .chart-chiild-div {
   position: absolute;
 }
+
 .chart-chiild-div-1 {
   position: absolute;
   left: 32px;
   top: 6px;
 }
+
 .chart-chiild-div-1 :first-child {
   font-weight: 700;
   font-size: 10px;
@@ -113,19 +131,22 @@ p {
   mix-blend-mode: normal;
   opacity: 0.7;
 }
+
 .chart-chiild-div-1 :last-child {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   color: #ffffff;
-  width: 100px;
+  width: 120px;
 }
+
 .chart-chiild-div-2 {
   display: flex;
   position: absolute;
   left: 845px;
   top: 6px;
 }
+
 .chart-chiild-div-2 :first-child {
   margin: 10px;
   height: 37px;
@@ -139,6 +160,7 @@ p {
   text-align: center;
   color: #ffffff;
 }
+
 .chart-chiild-div-2 :last-child {
   margin: 10px;
   height: 37px;
@@ -156,4 +178,108 @@ p {
 .bar-chart-main {
   position: absolute;
   left: 1112px;
+}
+
+/* table */
+
+.table-main-div {
+  position: relative;
+  top: 500px;
+  left: 35px;
+  width: 1050px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 32px rgba(136, 152, 170, 0.15);
+  border-radius: 6px;
+}
+
+.table-heading {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #32325d;
+}
+
+.table-button {
+  background: #5e72e4;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08), 0px 4px 6px rgba(50, 50, 93, 0.1);
+  border-radius: 6px;
+  border-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 57px;
+  height: 28px;
+}
+
+.thead-light tr th {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.9px;
+  color: #8898AA;
+  padding: 20px
+}
+
+.main-td {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #525F7F;
+}
+
+.td-data {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #525F7F;
+}
+
+.progress-bar-main {
+  height: 359px;
+  width: 510px;
+  position: absolute;
+  left: 1351px;
+  top: 883px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 32px rgba(136, 152, 170, 0.15);
+  border-radius: 6px;
+}
+
+.main-footer {
+  position: absolute;
+  top: 1350px;
+}
+
+.footer-child-1 {
+  position: relative;
+  left: 27px;
+}
+
+.footer-child-1 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #8898AA;
+}
+
+.footer-child-1 p span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5E72E4;
+}
+
+.footer-child-2 {
+  position: relative;
+  left: 1250px;
+
+}
+
+.footer-child-2 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #8898AA;
 }
