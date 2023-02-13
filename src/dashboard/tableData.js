@@ -83,3 +83,5 @@ const progresBar = progressBarData.map((item) => {
       </td>
       </tr>`;
 });
+
+// *********** dashboard_2 *************
