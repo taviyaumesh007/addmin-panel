@@ -32,6 +32,7 @@ const tableData = [
 ];
 
 const arrayData = tableData.map((item) => {
+  console.log("item", item);
   document.querySelector("#data-table").innerHTML += `<tr>
       <td class="main-td" style="padding:20px">${item.pageName}</td>
       <td class="td-data">${item.visitors}</td>

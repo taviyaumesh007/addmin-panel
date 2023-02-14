@@ -47,6 +47,14 @@ function createNewAccoun() {
 }
 
 const signUp = () => {
-  emailValidation();
-  passwordValidation();
+  if (emailValidation() || passwordValidation() === true) {
+    let stateObj = { id: "100" };
+    window.history.replaceState(
+      stateObj,
+      "logIn",
+      "http://127.0.0.1:5500/src/dashboard/dashboard_1.html"
+    );
+  } else {
+    console.log("plz Eneter correct deatil");
+  }
 };
